@@ -1,11 +1,11 @@
 package com.boutaina.metier;
 
 import com.boutaina.dao.IDao;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class MetierImpl implements IMetier {
     private IDao dao;
 
