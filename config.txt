@@ -1,0 +1,2 @@
+com.boutaina.dao.DaoImpl
+com.boutaina.metier.MetierImpl
